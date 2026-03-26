@@ -1,11 +1,16 @@
 # Установка библиотек
-pip install streamlit pandas matplotlib scikit-learn joblib numpy
+pip install streamlit
+pip install pandas
+pip install matplotlib
+pip install scikit-learn
+pip install joblib
+pip install numpy
 
 # Файлы проекта
-# app.py
-# student_scores.csv
+app.py
+student_scores.csv
 
-# Пример student_scores.csv
+# Пример содержимого student_scores.csv
 Hours,Scores
 2.5,21
 5.1,47
@@ -16,8 +21,8 @@ Hours,Scores
 9.2,88
 5.5,60
 
-# Запуск
+# Запуск приложения
 streamlit run app.py
 
-# Что создаётся
-# student_model.pkl  # модель после обучения
+# Что создаётся автоматически
+student_model.pkl  # сохранённая модель после обучения
